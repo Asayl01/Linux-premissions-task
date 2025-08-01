@@ -53,4 +53,4 @@ print(f"After: {after}")
 
 ## Terminal Output Screenshots
 
-![Screen](Screen.png)
+![Screen](Screen.jpg)
