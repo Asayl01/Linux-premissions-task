@@ -1,4 +1,4 @@
-# 🛡 Linux File Permissions Task
+# Linux File Permissions 
 
 ##  Task Objective  
 Understand Linux file permissions and create a flowchart to explain them. Then, write a Python script that uses the `chmod` command to change the permissions of a file to `rwxrwxr-x` (octal `0775`).
@@ -49,3 +49,8 @@ os.chmod(filename, 0o775)
 # Get permissions after change
 after = oct(os.stat(filename).st_mode)[-3:]
 print(f"After: {after}") 
+```
+
+## Terminal Output Screenshots
+
+![Screen](Screen.png)
