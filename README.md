@@ -1,4 +1,4 @@
-# 🛡️ Linux File Permissions Task
+# 🛡 Linux File Permissions Task
 
 ##  Task Objective  
 Understand Linux file permissions and create a flowchart to explain them. Then, write a Python script that uses the `chmod` command to change the permissions of a file to `rwxrwxr-x` (octal `0775`).
