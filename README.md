@@ -54,3 +54,19 @@ print(f"After: {after}")
 ## Terminal Output Screenshots
 
 ![Screen](Screen.jpg)
+
+## Flowchart
+[Start]
+   ↓
+[Use os.stat to get current permissions]
+   ↓
+[Print "Before" permissions]
+   ↓
+[Use os.chmod to apply 0775]
+   ↓
+[Use os.stat again to get updated permissions]
+   ↓
+[Print "After" permissions]
+   ↓
+[End]
+
